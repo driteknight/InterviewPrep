@@ -1,3 +1,5 @@
+package Robot;
+
 public class RobotTest {
 
     public static void main(String[] args) {
@@ -11,7 +13,7 @@ public class RobotTest {
         try {
             uniquePath.findUniquePaths(null);
         } catch (RuntimeException e) {
-            assert "Null Grid Array or Invalid Grid Array Length".equals(e.getMessage());
+            assert "Null Grid Array or Invalid Robot.Grid Array Length".equals(e.getMessage());
             return;
         }
 

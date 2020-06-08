@@ -1,3 +1,5 @@
+package Robot;
+
 class Grid {
 
     private int rowLength;
